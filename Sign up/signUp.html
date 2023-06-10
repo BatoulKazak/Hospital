@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="../globalStyle.css">
+    <link rel="stylesheet" href="signUp.css">
+    <link rel="stylesheet" href="../signInAndLogin.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <script defer src="../navbar.js"></script>
+    <script defer src="signUp.js"></script>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Sign Up</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <button id="open-nav-button">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+
+            <h3>Al-Salam Hospital</h3>
+
+            <nav id="nav" class="closed">
+                <button id="close-nav-button">
+                    <div></div>
+                    <div></div>
+                </button>
+
+                <a href="../index/index.html">Home</a>
+                <a href="../Doctors/doctors.html">Doctors</a>
+                <a href="../Rooms/rooms.html">Rooms</a>
+                <a href="../About/about.html">About</a>
+
+                <p class="email">Contact us at&nbsp;<a class="email">hospital@gmail.com</a>.</p>
+            </nav>
+        </header>
+
+        <form>
+            <img id="im" src="../Images/istockphoto-1312423123-612x612.jpg">
+            <main>
+                <header>
+                    <h1>Sign Up</h1>
+                </header>
+
+                <a href="../index/index.html">
+                    <div id="home-page"></div>
+                </a>
+                <div id="input-container">
+                    <div>
+                        <input type="text" id="full-name" placeholder="" />
+                        <label>Full name</label>
+                        <div class="check-mark"></div>
+                    </div>
+                    <div>
+                        <input type="email" id="email" placeholder="" required />
+                        <label>Email</label>
+                        <div class="check-mark"></div>
+                    </div>
+                    <div>
+                        <input type="password" id="password" placeholder="" required minlength="8" />
+                        <label>Password</label>
+                        <div class="check-mark"></div>
+                    </div>
+                    <div>
+                        <input type="password" id="confirm-password" placeholder="" required minlength="8" />
+                        <label>Confirm Password</label>
+                        <div class="check-mark"></div>
+                    </div>
+                </div>
+
+                <div id="terms-checkbox">
+                    <input type="checkbox" id="term-input">
+                    <label for="term-input">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        agree with the website's
+                        <a href="">terms and conditions</a>
+                    </label>
+                </div>
+
+                <button type="submit" id="sign-up-button">Sign up</button>
+
+                <div id="already-sign-in">
+                    <p>Already a member?</p>
+                    <a href="../Login/login.html">Login</a>
+                </div>
+            </main>
+        </form>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
